@@ -111,7 +111,7 @@ class PythonInterface:
 		else:
 			self.winch_Z.value = 0
 			self.winch_M.value = 0
-			#print "bleibenstehen"
+			#print "stays"
 		if self.distance.value > 1000:
 			self.toggledWinch = 0
 
